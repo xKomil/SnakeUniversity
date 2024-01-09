@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="logowanie.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="navigation">
+        <a href="index.html">
+            <img src="img/logo.png" class="logo" alt="University Logo">
+        </a>
+        <img src="img/menu.png" class="menu-icon" alt="Menu Icon">
+        <ul>
+            <li><a href="index.html#Kursy">Kursy</a></li>
+            <li><a href="index.html#Nauczyciele">Nauczyciele</a></li>
+            <li><a href="#Klienci">Klienci</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="logowanie.html">Logowanie</a></li>
+            <li><a href="info.html">O mnie</a></li>
+        </ul>
+    </div>
+
+    <div class="login-container">
+        <h2>Zaloguj się</h2>
+        <!-- tutaj może być jeszcze method = post i pod tym jest w labelu
+            for="" a w inpucie type="", id="", name="" która przesyła dane 
+            żeby było bezpieczniej -->
+        <form class="login-form" action="index.html">
+            <div class="form-group">
+                <label>E-mail:</label>
+                <input required>
+            </div>
+            <div class="form-group">
+                <label>Hasło:</label>
+                <input type="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Zaloguj</button>
+                <p>lub</p>
+                <div class="login">
+                    <a href="#" class="social-login-button"><i class="fab fa-google"></i> Zaloguj się przez Google</a>
+                    <a href="#" class="social-login-button"><i class="fab fa-github"></i> Zaloguj się przez GitHub</a>
+                    <a href="#" class="social-login-button"><i class="fab fa-linkedin"></i> Zaloguj się przez LinkedIn</a>
+                </div>
+                <p class="create-account-text">Nie masz konta? <a href="rejestracja.html" class="create-account-link">Stwórz konto</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="admin-button-container">
+        <a class="admin-button" href="admin.html">Admin</a>
+    </div>
+
+</div>
+
+
+</body>
+</html>
