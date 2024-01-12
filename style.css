@@ -153,7 +153,7 @@ body
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .Kursy .kurs{
@@ -253,9 +253,10 @@ body
 
 .profile .profil{
     background: #fafaf1;
-	padding: 50px 10px;
+	padding: 60px 10px;
 	box-shadow: rgba(17, 17, 26, 0.05) 0px px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
+
 
 .profile .profil:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
@@ -277,6 +278,10 @@ body
 	color: #fff;
 }
 
+.profil .link-post{
+    margin: 20px;
+}
+
 .profile img{
     width: 70%;
     height: 70%;
@@ -288,7 +293,7 @@ body
 /*-----------------Footer---------------*/
 
 .footer {
-    padding: 2vw;
+    padding: 4vw;
     background-color: #10203f;
     display: flex;
     justify-content: space-between;
@@ -356,73 +361,75 @@ body
 
  
 @media only screen and (max-width: 900px) {
+    .navigation ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 57px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0px 9px 27px -17px rgba(0, 0, 0, 1);
+    }
 
-.navigation{
-    box-sizing: content-box; 
-}
-    
-.navigation ul { 
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 57px;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    box-shadow: 0px 9px 27px -17px rgba(0, 0, 0, 1);
-}
-  
-.navigation ul.show {
-    display: flex;
+    .navigation ul.show {
+        display: flex;
+    }
+
+    .navigation li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .navigation .menu-icon {
+        display: block;
+        margin-left: auto;
+    }
+
+    .navigation ul li a {
+        display: block;
+        padding: 15px;
+        margin: 0; 
+    }
+
+    .navigation ul li {
+        margin: 10px 0;
+    }
+
+    .home .btn {
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home a {
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 13px 20px; 
+        background-color: #fff;
+        font-weight: 600;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .home h2,
+    .home p {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .home h2 {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .home p {
+        font-size: 0.8rem;
+    }
 }
 
-.navigation li {
-    margin: 0;
-    text-align: center;
-}
-
-.navigation .menu-icon {
-    display: block;
-    margin-left: auto;
-}
-
-
-.navigation ul li a {
-    display: block;
-    padding: 15px;
-}
-
-.home {
-    padding: 10px; 
-}
-
-.home h2 {
-    font-size: 1.8rem; 
-    margin-bottom: 10px; 
-}
-
-.home p {
-    font-size: 0.9rem; 
-    margin-bottom: 8px; 
-}
-
-
-.home h2,
-.home p {
-    display: block;
-    width: 100%;
-    text-align: center;
-}
-
-.home h2 {
-    font-size: 1.5rem; 
-    margin-bottom: 5px;
-}
-
-.home p {
-    font-size: 0.8rem; 
-}
-}
 
 
   

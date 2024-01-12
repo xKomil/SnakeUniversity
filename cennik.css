@@ -6,6 +6,14 @@ body
 {
     margin: auto;
     font-family: 'Mulish',Helvetica,Arial,Lucida,sans-serif;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-content {
+    flex: 1;
+    box-sizing: border-box;
 }
 
 .navigation {
@@ -68,114 +76,50 @@ body
     color: #fdbd13;
 }
 
-/*-----------------Contact---------------*/
+/*-----------------Cennik---------------*/
 
-.contact-home img {
+.cennik {
     max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-/*-----------------Contact Form---------------*/
-
-.contact-container {
-    text-align: center;
-    padding: 40px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px 0; 
+    background-color: white;
+    padding: 20px;
     border-radius: 8px;
-    margin-top: -20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact-container h2 {
-    color: rgb(21, 21, 100);
-    margin-bottom: 20px;
+h2 {
+    color: #333;
 }
 
-.contact-form {
-    max-width: 600px;
-    margin: 0 auto;
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto; 
 }
 
-.form-group {
-    margin-bottom: 20px;
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
     text-align: left;
 }
 
-.form-group label {
-    display: block;
-    margin-bottom: 8px;
-    color: #7b838a;
+.cennik-link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out; 
 }
 
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #5f7185;
-    border-radius: 4px;
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-.form-group button {
-    background-color: #5f7185;
-    color: #fff;
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    transition: background-color 0.3s ease;
-}
-
-.form-group button:hover {
-    background: rgb(21, 21, 100);
-}
-
-
-
-
-/*-----------------Link---------------*/
-
-.link{
-    margin-top: 10px;
-}
-
-.link i{
-    padding: 10px 13px;
-	border: 1px solid rgb(21, 21, 100);
-	cursor: pointer;
-	transition: 0.3s ease;
-}
-
-.link i:hover{
-    background: rgb(21, 21, 100);
-	color: #fff;
-}
-
-.profile img{
-    width: 70%;
-    height: 70%;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 2px 7px 0px rgba(178, 178, 190, 1);
+.cennik-link:hover {
+    color: #0056b3;
 }
 
 /*-----------------Footer---------------*/
 
+
 .footer {
-    padding: 4vw;
+    padding: 2vw;
     background-color: #10203f;
     display: flex;
     justify-content: space-between;
@@ -241,7 +185,6 @@ body
     color: white;
 }
 
- 
 @media only screen and (max-width: 900px) {
 
     .navigation{
@@ -278,35 +221,4 @@ body
         display: block;
         padding: 15px;
     }
-    
-    .home {
-        padding: 10px; 
-    }
-    
-    .home h2 {
-        font-size: 1.8rem; 
-        margin-bottom: 10px; 
-    }
-    
-    .home p {
-        font-size: 0.9rem; 
-        margin-bottom: 8px; 
-    }
-    
-    
-    .home h2,
-    .home p {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-    
-    .home h2 {
-        font-size: 1.5rem; 
-        margin-bottom: 5px;
-    }
-    
-    .home p {
-        font-size: 0.8rem; 
-    }
-    }
+}
