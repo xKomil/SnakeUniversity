@@ -26,7 +26,7 @@ body
 .menu-icon {
     width: 48px;
     height: 48px;
-    object-fit: contain; /* lub cover, w zależności od oczekiwanego efektu */
+    object-fit: contain; 
     cursor: pointer;
 }
 
