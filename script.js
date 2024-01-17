@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     navLinks.forEach(function (link) {
         link.addEventListener('click', function (event) {
             // Jeśli szerokość ekranu jest mniejsza lub równa 1000px, schowaj menu
-            if (window.innerWidth <= 1000) {
+            if (window.innerWidth <= 1050) {
                 navList.classList.remove('show');
                 // Zapisz stan menu w localStorage
                 localStorage.setItem('menuState', navList.classList.contains('show'));

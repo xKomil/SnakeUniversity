@@ -221,7 +221,7 @@ body
     color: white;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .navigation ul {
         display: none;
         flex-direction: column;
