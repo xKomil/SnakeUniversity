@@ -262,22 +262,6 @@ body
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
-.link{
-    margin-top: 10px;
-}
-
-.link i{
-    padding: 10px 13px;
-	border: 1px solid rgb(21, 21, 100);
-	cursor: pointer;
-	transition: 0.3s ease;
-}
-
-.link i:hover{
-    background: rgb(21, 21, 100);
-	color: #fff;
-}
-
 .profil .link-post{
     margin: 20px;
 }
@@ -357,6 +341,22 @@ body
 
 .footer .copyright {
     color: white;
+}
+
+.link{
+    margin-top: 10px;
+}
+
+.link i{
+    padding: 10px 13px;
+	border: 1px solid rgb(21, 21, 100);
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.link i:hover{
+    background: rgb(21, 21, 100);
+	color: #fff;
 }
 
  

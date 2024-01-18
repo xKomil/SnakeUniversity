@@ -74,6 +74,23 @@ body
     color: #fdbd13;
 }
 
+/*-----------------Statystyka---------------*/
+
+h2 {
+    color: #202228;
+    text-align: center;
+}
+
+.stats-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 100px auto;
+    margin-bottom: 250px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
 
 
 
