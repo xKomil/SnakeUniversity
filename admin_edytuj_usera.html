@@ -28,6 +28,52 @@
             </ul>
         </div>
 
+        <div class="container">
+            <h2>Edytuj Profil</h2>
+            <form id="profileForm">
+                <label for="userSelect">Wybierz użytkownika:</label>
+                <select id="userSelect" name="userSelect" required>
+                    <option value="" disabled selected>Wybierz użytkownika</option>
+                    <option value="">Jakub Kowalczyk</option>
+                    <option value="">Zuzanna Wojciechowska</option>
+                    <option value="">Adrian Nowicki</option>
+                    <option value="">Julia Szymańska</option>
+                    <option value="">Kacper Adamczyk</option>
+                    <option value="">Amelia Jankowska</option>
+                    <option value="">Mateusz Wójcik</option>
+                    <option value="">Natalia Krawczyk</option>
+                    <option value="">Dawid Jastrzębski</option>
+                    <option value="">Oliwia Kamińska</option>
+                    <option value="">Szymon Wójcik</option>
+                    <option value="">Wiktoria Kaczmarek</option>
+                    <option value="">Mikołaj Dąbrowski</option>
+                    <option value="">Lena Kozłowska</option>
+                    <option value="">Bartosz Szymański</option>
+                    <option value="">Kinga Wiśniewska</option>
+                </select>
+        
+                <label for="firstName">Imię:</label>
+                <input type="text" id="firstName" name="firstName" required>
+        
+                <label for="lastName">Nazwisko:</label>
+                <input type="text" id="lastName" name="lastName" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="phone">Telefon:</label>
+                <input type="tel" id="phone" name="phone">
+        
+                <label for="bio">Notatka bio:</label>
+                <textarea id="bio" name="bio" rows="4"></textarea>
+        
+                <label for="profilePicture">Zdjęcie:</label>
+                <input type="file" id="profilePicture" name="profilePicture">
+        
+                <button type="submit">Zapisz zmiany</button>
+            </form>
+        </div>
+
     </div>
 
     <div class="footer">
