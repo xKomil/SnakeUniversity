@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="admin_posty.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="main-content">
+
+        <div class="navigation">
+            <a href="index.html">
+                <img src="img/logo.png" class="logo" alt="University Logo">
+            </a>
+            <img src="img/menu.png" class="menu-icon" alt="Menu Icon">
+            
+            <ul>
+                <li><a href="admin.html">Główna Strona</a></li>
+                <li><a href="admin_posty.html">Posty</a></li>
+                <li><a href="admin_lista.html">Lista Użytkowników</a></li>
+                <li><a href="admin_edytuj_usera.html">Edytuj Użytkownika</a></li>
+                <li><a href="admin_statystyki.html">Statystyki</a></li>
+                <li><a href="index.html">Wyloguj</a></li>
+            </ul>
+        </div>
+
+        <div class="post-section">
+            <div id="Alex-Smola">
+                <div class="post">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Usuń</button>
+                    <h2>Rada dla inżynierów oprogramowania, którzy chcą zacząć w ML </h2>
+                    <p>Zaczęcię uczenia się zależy w dużej mierze od doświadczenie Inżyniera. Również to zależy od tego jaką część uczenia maszynowego chcemy opanować. Dla uściślenia, żałóżmy, że mówimy o junior
+                        software engineer'rze, który ma za sobą 3,5 roku studiów i rok doświadczenia w zawodzie. Pierwszą rzeczą do nauki byłaby algebra liniowa. Duża część uczenia maszynowego, statystyki i optymalizacji opiera się właśnie na różnorodnych
+                        algorytmach z algebry liniowej. Dlatego tak ważne jest zrozumienie podstawowych zagadnień: skalary, wektory, macierze, jedno-dwu lub wielowywymiarowe obiekty, które tworzysz by móc wykorzystywać do transformacji
+                        danych. Trochę jak klocki Lego. Następnie ważnym aspektem jest optymalizacja i podstawowy rachunek różniczkowy. W wielu przypadkach łatwo sformułować pytanie ale ciężko dostać dokładną odpowiedź na nie. Na przykład kiedy chcemy przeprowadzić
+                        regresje liniową na danych chcemy zminimalizować odsetek błedy procentowego, aby wyniki były jak najbardziej poprawne. Tak samo jest kiedy chcemy uzyskać model, który przewiduje z jakim prawdopodobieństwem, ktoś 
+                        kliknie w reklamę - to chcemy, żeby ten wynik był bardzo dokładny. Dzięki temu możemy wyciągnąć wnioski i powiedzieć sekcji marketingu... 
+                    </p>
+                    <button class="read-more">Czytaj więcej</button>
+                    <div class="author">Autor: Alex Smola</div> 
+                    <div class="comments">
+                      <h3>Komentarze</h3>
+                      <ul>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user1.jpg" alt="User 1">
+                          </div>
+                          Alex321: Dziękiuje za klarowne wskazówki! Zaczynam przygodę z uczeniem maszynowym jako junior software engineer, i ta sugestia, aby zacząć od algebry liniowej, jest dla mnie kluczowa. Mam nadzieję, że to ułatwi mi zrozumienie głębszych koncepcji
+                        </li>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user2.jpg" alt="User 2">
+                          </div>
+                          Ola1309 : Dzięki za świetne wyjaśnienie! Teraz, pracując nad analizą danych, widzę, jak istotne są podstawy algebry liniowej. Masz może jakieś szybkie rady dla tych, którzy chcą teorię przenieść w praktykę?"
+                        </li>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user3.jpg" alt="User 3">
+                          </div>
+                          BartekSw2 : Świetny artykuł! Chciałbym zapytać, czy istnieje jakiś konkretny obszar w algebrze liniowej, na którym warto się skupić jako początkujący?
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="Andrew-Ng">
+                <div class="post">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Usuń</button>
+                    <h2>Zastosowania uczenia maszynowego</h2>
+                    <p>W tym artykule poznasz jak samodzielnie wdrażać algorytmy ML. Dowiesz się o najważniejszych algorytmach uczenia maszynowego oraz takie, które aktualnie używa się w dużych firmach zajmującą
+                        się sztuczną inteligencją lub w firmach technologicznych. Poza nauką algorytmów poznasz również przydatne sztuczki i wskazówki dzięki, którym algorytmy będą działać prawidłowo. Zastanawiasz się
+                        dlaczego uczenie maszynowe jest tak powszechnie stosowane? Jest to spowodowane tym, że ludzie chcieli stworzyć inteligentne maszyny. Okazało się, że istnieje kilka podstawowych rzeczy, do których możemy 
+                        zaprogramować maszynę, takich jak znalezienie najkrótszej ścieżki z punktu a do punktu b, jak w GPS. Jednak ciężko było zaprogramować to w taki sposób, żeby komputer nauczył się bardziej wymagających rzeczy 
+                        takich jak wyszukiwanie w internecie, rozpoznawanie ludzkiej mowy czy diagnozowanie chorób na podstawie zdjęć rentgenowskich. Jedynym sposobem jaki był to by maszyna sama się tego nauczyła. 
+                        Potencjał zastosowania tych algorytmów jest ogromny. Według badania przez McKinsey'a, szacuje się, że sztuczna inteligencja i uczenie maszynowe stworzą dodatkowe 13 bilionów dolarów wartości rocznie do
+                        2030 roku. W tym artykule dowiesz się jakie są najważniejsze algorytmy uczenia maszynowego, jak je zaimplementować i jakie są ich zastosowania oraz...
+                    </p>
+                    <button class="read-more">Czytaj więcej</button>
+                    <div class="author">Autor: Andrew Ng</div>
+                    <div class="comments">
+                      <h3>Komentarze</h3>
+                      <ul>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user4.jpg" alt="User 4">
+                          </div>
+                          Łukasz689 : Niesamowite, jak duży potencjał ma ML! Czy znasz konkretne firmy, które już teraz odnoszą sukcesy dzięki tym technologiom?
+                        </li>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user5.jpg" alt="User 5">
+                          </div>
+                          Nikola3lo : Super artykuł! Jako osoba na początkowym etapie nauki ML, doceniam jasne wyjaśnienia. Czy masz może rady dla kobiet, które chcą wejść w ten fascynujący świat?
+                        </li>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user6.jpg" alt="User 6">
+                          </div>
+                          JacekPlacek1 : Dzięki za info! Jaki algorytm obecnie króluje w firmach zajmujących się AI? Chciałbym zacząć od praktyki.
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+              
+            
+            <div id="Andrej-Kaparthy">
+                <div class="post">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Usuń</button>
+                    <h2>Podstawy wielkich modeli językowych</h2>
+                    <p>Wielkie modele językowe to po angielsku LLM i w rzeczywistości to tylko dwa pliki. Zasadniczo aby uruchomić LLM, potrzebujemy dwóch plików. Pliku z parametrami oraz plik ze skryptem
+                        napisanym w C lub innym języku programowania. Nie jest wymagane połączenie z internetem. Przykładem mogą być naukowcy z Meta Ai. Pobrali oni fragment internetu (około 10 terabajtów dancyh)
+                        następnie pozyskali dostęp do klastera GPU. Jest to połączenie kilku lub kilkudziesięciu serwerów aby uzyskać poteżną moc obliczeniową. Następnie przeprowadzili proces szkolenia modelu przez około
+                        12 dni. Całkowity koszt takiego uczenia wyniósł 2 miliony dolarów. W wyniku tego otrzymujemu plik zip parametrów. Te parametry w uproszczeniu będą przewidywać następnie wpisywane słowo. Sieć neuronowa
+                        bierze pod uwagę kontekst pierwszych słów np.: "kot siedzi na" i przewiduje, że najbardziej prawdopodobnym następnym słowem będzie "drapaku". Potem to lub inne słowo pobiera i stara się znowu dopasować
+                        najlepiej pasujące słowo i tak w kółko. Zastosowane jest to w dzisiejszych...
+                    </p>
+                    <button class="read-more">Czytaj więcej</button>
+                    <div class="author">Autor: Andrej Kaparthy</div>
+
+                    <div class="comments">
+                      <h3>Komentarze</h3>
+                      <ul>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user7.jpg" alt="User 7">
+                          </div>
+                          Kasia32 : Dzięki za jasne info! Teraz wszystko staje się jasne. Czy to oznacza, że wielkie modele językowe to efekt łączenia ogromnej ilości danych i mocy obliczeniowej?
+                        </li>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user8.jpg" alt="User 8">
+                          </div>
+                          Wiktoria007 : Czy wszystkie dane, które pobierają naukowcy, muszą być ogromne? Czy jednak wielkie modele językowe mogą być szkolone również na mniejszych zbiorach danych?
+                        </li>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user9.jpg" alt="User 9">
+                          </div>
+                          Hanako1113 : Czy istnieją tańsze alternatywy dla szkolenia wielkich modeli językowych? Jakieś nowatorskie podejścia do obniżenia kosztów?
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+              
+            <div id="David-Malan">
+                <div class="post">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Usuń</button>
+                    <h2>Wstęp do szcztucznej inteligencji</h2>
+                    <p>W dzisiejszych czasach sztuczna inteligencja obejmuje wiele różnych rodzajów technik. Za każdym razem gdy widzimy gdy komputer robi coś inteligentnego lub racjonalnego w pewny sposób na przykład
+                        rozpoznanie czyjejś twarzy lub potrafi grać w gry lepiej niż ludzie lub jest wstanie zrozumieć ludzki język gdy mówimy do telefonu i nam odpowiedzieć. To wszystko to są zastosowania sztucznej inteligencji
+                        Niezależnie czy próbujemy uzyskać wskazówki dojazdu z punktu A do B czy dowiedzieć się jak wygrać w kółko i krzyżyk Ai będzie starało się podać najlepszy ruch. Komputer uczy się za pomocą dużej ilości
+                        danych. Przykładem jest skrzynka pocztowa e-mail, która w jakiś sposób wie, które wiadomości są spamem, a które nie. Google maps jest w stanie podać ci przybliżoną godzine dotarcia do domu z uwzględnieniem
+                        złych stanów pogodowych, korków rzeczy, które mogą się wydarzyć w każdym momencie i są w czasie rzeczywistym liczone...
+                    </p>
+                    <button class="read-more">Czytaj więcej</button>
+                    <div class="author">Autor: David Malan</div>
+                    <div class="comments">
+                      <h3>Komentarze</h3>
+                      <ul>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user10.jpg" alt="User 10">
+                          </div>
+                          Maciek17w : Dzisiaj sztuczna inteligencja robi naprawdę wiele ciekawych rzeczy. Na przykład, pomaga nam w rozpoznawaniu twarzy, w grach czy nawet w zrozumieniu języka naturalnego, kiedy rozmawiamy z naszymi telefonami.
+                        </li>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user11.jpg" alt="User 11">
+                          </div>
+                          Michalina329 : Dzisiaj sztuczna inteligencja robi wiele użytecznych rzeczy. Na przykład, pomaga nam znaleźć najlepsze trasy z punktu A do B, uwzględniając korki czy złe warunki pogodowe.
+                        </li>
+                        <li>
+                          <div class="comment-img">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Usuń</button>
+                            <img src="img/user12.jpg" alt="User 12">
+                          </div>
+                          Mateusz89 : Dzięki sztucznej inteligencji nasze skrzynki pocztowe potrafią odróżniać spam od ważnych wiadomości. To sprawia, że nasze e-maile są bardziej zorganizowane i mniej irytujące.
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+              
+
+        </div>
+
+    </div>
+    
+  </div>
+
+  <div class="footer">
+    <div class="footer-col">
+        <h3>Kariera</h3>
+        <ul>
+            <li>Oferty pracy</li>
+            <li>Dołącz do nas</li>
+            <li>Branże</li>
+            <li>Inwestorzy</li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Dostępność</h3>
+        <ul>
+            <li>Ustawienia cookies</li>
+            <li>Polityka cookies</li>
+            <li>Polityka prywatności</li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Newsy</h3>
+        <ul>
+            <li>Blog</li>
+            <li>Aktualności</li>
+            <li>Warunki korzystania</li>
+        </ul>
+    </div>
+    <div class="copyright">
+        <p>Prawa autorskie @ 2023 Wszelkie prawa zastrzeżone | Kamil Płocki</p>
+        <div class="link">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </div>
+  </div>
+  
+
+</body>
+</html>
