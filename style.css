@@ -262,6 +262,7 @@ body
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
+
 .profil .link-post{
     margin: 20px;
 }
@@ -304,7 +305,7 @@ body
 }
 
 .footer-col li {
-    color: #7b838a;
+    color: #AFB3B6;
     padding: 6px 0;
     font-size: 15px;
     cursor: pointer;

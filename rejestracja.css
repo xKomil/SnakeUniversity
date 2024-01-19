@@ -106,7 +106,7 @@ body
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    border: 1px solid #5f7185;
+    border: 1px solid #51565C;
     border-radius: 4px;
 }
 
@@ -114,12 +114,12 @@ body
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    border: 1px solid #5f7185;
+    border: 1px solid #51565C;
     border-radius: 4px;
 }
 
 .form-group button {
-    background-color: #5f7185;
+    background-color: #51565C;
     color: #fff;
     padding: 10px;
     border: none;
