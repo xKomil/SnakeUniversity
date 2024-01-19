@@ -112,7 +112,7 @@ body
 .form-group label {
     display: block;
     margin-bottom: 8px;
-    color: #7b838a;
+    color: #4D5356;
 }
 
 .form-group input,
@@ -120,7 +120,7 @@ body
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #4D5256;
+    border: 1px solid #4D5356;
     border-radius: 4px;
 }
 
@@ -129,7 +129,7 @@ body
 }
 
 .form-group button {
-    background-color: #4D5256;
+    background-color: #4D5356;
     color: #fff;
     padding: 12px;
     border: none;

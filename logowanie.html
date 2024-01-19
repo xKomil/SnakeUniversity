@@ -28,17 +28,14 @@
 
     <div class="login-container">
         <h2>Zaloguj się</h2>
-        <!-- tutaj może być jeszcze method = post i pod tym jest w labelu
-            for="" a w inpucie type="", id="", name="" która przesyła dane 
-            żeby było bezpieczniej -->
         <form class="login-form" action="index.html">
             <div class="form-group">
-                <label>E-mail:</label>
-                <input required>
+                <label for="email">E-mail:</label>
+                <input id="email" type="email" required>
             </div>
             <div class="form-group">
-                <label>Hasło:</label>
-                <input type="password" required>
+                <label for="password">Hasło:</label>
+                <input id="password" type="password" required>
             </div>
             <div class="form-group">
                 <button type="submit">Zaloguj</button>

@@ -99,7 +99,7 @@ body
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #7b838a;
+    color: #606366;
 }
 
 .form-group input {
@@ -119,7 +119,7 @@ body
 }
 
 .form-group button {
-    background-color: #51565C;
+    background-color: #4D5356;
     color: #fff;
     padding: 10px;
     border: none;
@@ -135,7 +135,7 @@ body
 .login-link {
     text-align: center;
     margin-top: 10px;
-    color: #7b838a;
+    color: #4D5356;
 }
 
 .login-link a {
