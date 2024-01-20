@@ -122,9 +122,9 @@ body
     position: absolute;
     top: 15px;
     right: 15px;
-    background-color: #10203f;
+    background-color: rgb(21, 21, 100);
     color: #fff;
-    border: 1px solid #10203f; 
+    border: 1px solid rgb(21, 21, 100); 
     padding: 8px 16px;
     margin-right: 10px;
     cursor: pointer;
@@ -141,9 +141,9 @@ body
     position: absolute;
     top: 15px;
     right: 100px;
-    background-color: #ffc21c;
+    background-color: rgb(21, 21, 100);
     color: #fff;
-    border: 1px solid #ffc21c; 
+    border: 1px solid rgb(21, 21, 100); 
     padding: 8px 16px;
     margin-right: 10px;
     cursor: pointer;
