@@ -87,6 +87,7 @@ body
 }
 
 .post h2 {
+    margin-top: 40px;
     color: #333;
 }
 
@@ -106,35 +107,39 @@ body
 /*-----------------Guziki---------------*/
 
 .read-more {
-    background-color: #49555d;
+    background-color: #151564;
     color: #fff;
+    border: 1px solid #151564;
     padding: 10px;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .read-more:hover {
-    background-color: #252a2d;
+    color: #151564;
+    background: #fff;
+    border-color: #151564; 
 }
 
 .edit-btn {
     position: absolute;
     top: 15px;
     right: 15px;
-    background-color: rgb(21, 21, 100);
+    background-color: #151564;
     color: #fff;
-    border: 1px solid rgb(21, 21, 100); 
+    border: 1px solid #151564; 
     padding: 8px 16px;
     margin-right: 10px;
     cursor: pointer;
     border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
 .edit-btn:hover {
-    color: rgb(21, 21, 100);
+    color: #151564;
     background: #fff;
-    border-color: rgb(21, 21, 100); 
+    border-color: #151564; 
 }
 
 .delete-btn {
@@ -148,6 +153,7 @@ body
     margin-right: 10px;
     cursor: pointer;
     border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
 .delete-btn:hover {
