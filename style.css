@@ -132,7 +132,7 @@ body
 .home a.yellow
 {
 	color: #fff;
-	background: #fdbd13;
+	background: rgb(21, 21, 100); /*#fdbd13 */
 	transition: 0.3s ease;
 }
 
@@ -201,7 +201,7 @@ body
 }
 
 .Kursy .gwiazdki{
-    color: #ffc21c;
+    color: #000000;
 	font-size: .9rem;
 }
 /*-----------------Numbers---------------*/
