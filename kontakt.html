@@ -10,57 +10,67 @@
 </head>
 <body>
     
-    <div class="navigation">
-        <a href="index.html">
-            <img src="img/logo.png" class="logo" alt="University Logo">
-        </a>
-        <img src="img/menu.png" class="menu-icon" alt="Menu Icon">
-        <ul>
-            <li><a href="index.html#Kursy">Kursy</a></li>
-            <li><a href="index.html#Nauczyciele">Nauczyciele</a></li>
-            <li><a href="posty.html">Posty</a></li>
-            <li><a href="cennik.html">Cennik</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="logowanie.html">Logowanie</a></li>
-            <li><a href="info.html">O mnie</a></li>
-        </ul>
-    </div>
+    <header>
 
-    <div class="contact-home">
-        <img src="img/contact5.jpg" alt="">
-	</div>
+        <nav class="navigation">
+            <a href="index.html">
+                <img src="img/logo.png" class="logo" alt="University Logo">
+            </a>
+            <img src="img/menu.png" class="menu-icon" alt="Menu Icon">
+            <ul>
+                <li><a href="index.html#Kursy">Kursy</a></li>
+                <li><a href="index.html#Nauczyciele">Nauczyciele</a></li>
+                <li><a href="posty.html">Posty</a></li>
+                <li><a href="cennik.html">Cennik</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="logowanie.html">Logowanie</a></li>
+                <li><a href="info.html">O mnie</a></li>
+            </ul>
+        </nav>
 
-    <div class="contact-form-container">
-        <div class="contact-form">
-            <h2>Contact Us</h2>
-            <form>
-                <div class="form-group">
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Your Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Subject:</label>
-                    <input type="text" id="subject" name="subject" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit">Send Message</button>
-                </div>
-            </form>
-        </div>
-        <div class="map-container">
-            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2061.5057224299676!2d19.462195851718043!3d51.77496765605396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcb27d95ca219%3A0x7a09bc332d4a8d73!2sWydzia%C5%82%20Ekonomiczno-Socjologiczny%20Uniwersytetu%20%C5%81%C3%B3dzkiego!5e1!3m2!1spl!2spl!4v1704821285548!5m2!1spl!2spl" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </div>
+    </header>
+    
+    <main>
 
-    <div class="footer">
+        <section class="contact-home" aria-label="Kontakt">
+            <img src="img/contact5.jpg" alt="Zdjęcie kontaktowe">
+        </section>
+    
+        <section class="contact-form-container">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="map-container">
+                <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2061.5057224299676!2d19.462195851718043!3d51.77496765605396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcb27d95ca219%3A0x7a09bc332d4a8d73!2sWydzia%C5%82%20Ekonomiczno-Socjologiczny%20Uniwersytetu%20%C5%81%C3%B3dzkiego!5e1!3m2!1spl!2spl!4v1704821285548!5m2!1spl!2spl" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+    </main>
+    
+
+    <footer class="footer">
+        
         <div class="footer-col">
             <h3>Kariera</h3>
             <ul>
@@ -97,8 +107,8 @@
                 <i class="fab fa-linkedin-in"></i>
             </div>
         </div>
-    </div>
 
+    </footer>
 
 </body>
 </html>

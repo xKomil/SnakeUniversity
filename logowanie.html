@@ -9,51 +9,58 @@
     <script src="script.js"></script>
 </head>
 <body>
+
+    <header>
+
+        <nav class="navigation">
+            <a href="index.html">
+                <img src="img/logo.png" class="logo" alt="University Logo">
+            </a>
+            <img src="img/menu.png" class="menu-icon" alt="Menu Icon">
+            <ul>
+                <li><a href="index.html#Kursy">Kursy</a></li>
+                <li><a href="index.html#Nauczyciele">Nauczyciele</a></li>
+                <li><a href="posty.html">Posty</a></li>
+                <li><a href="cennik.html">Cennik</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="logowanie.html">Logowanie</a></li>
+                <li><a href="info.html">O mnie</a></li>
+            </ul>
+        </nav>
+
+    </header>
     
-    <div class="navigation">
-        <a href="index.html">
-            <img src="img/logo.png" class="logo" alt="University Logo">
-        </a>
-        <img src="img/menu.png" class="menu-icon" alt="Menu Icon">
-        <ul>
-            <li><a href="index.html#Kursy">Kursy</a></li>
-            <li><a href="index.html#Nauczyciele">Nauczyciele</a></li>
-            <li><a href="posty.html">Posty</a></li>
-            <li><a href="cennik.html">Cennik</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="logowanie.html">Logowanie</a></li>
-            <li><a href="info.html">O mnie</a></li>
-        </ul>
-    </div>
+    <main>
 
-    <div class="login-container">
-        <h2>Zaloguj się</h2>
-        <form class="login-form" action="index.html">
-            <div class="form-group">
-                <label for="email">E-mail:</label>
-                <input id="email" type="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Hasło:</label>
-                <input id="password" type="password" required>
-            </div>
-            <div class="form-group">
-                <button type="submit">Zaloguj</button>
-                <p>lub</p>
-                <div class="login">
-                    <a href="#" class="social-login-button"><i class="fab fa-google"></i> Zaloguj się przez Google</a>
-                    <a href="#" class="social-login-button"><i class="fab fa-github"></i> Zaloguj się przez GitHub</a>
-                    <a href="#" class="social-login-button"><i class="fab fa-linkedin"></i> Zaloguj się przez LinkedIn</a>
+        <section class="login-container">
+            <h2>Zaloguj się</h2>
+            <form class="login-form" action="index.html">
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" required>
                 </div>
-                <p class="create-account-text">Nie masz konta? <a href="rejestracja.html" class="create-account-link">Stwórz konto</a></p>
-            </div>
-        </form>
-    </div>
+                <div class="form-group">
+                    <label for="password">Hasło:</label>
+                    <input id="password" type="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Zaloguj</button>
+                    <p>lub</p>
+                    <div class="login">
+                        <a href="#" class="social-login-button"><i class="fab fa-google"></i> Zaloguj się przez Google</a>
+                        <a href="#" class="social-login-button"><i class="fab fa-github"></i> Zaloguj się przez GitHub</a>
+                        <a href="#" class="social-login-button"><i class="fab fa-linkedin"></i> Zaloguj się przez LinkedIn</a>
+                    </div>
+                    <p class="create-account-text">Nie masz konta? <a href="rejestracja.html" class="create-account-link">Stwórz konto</a></p>
+                </div>
+            </form>
+        </section>
+    
+        <section class="admin-button-container" aria-label="Przyciski dostępu do panelu administratora">
+            <a class="admin-button" href="admin.html">Admin</a>
+        </section>
 
-    <div class="admin-button-container">
-        <a class="admin-button" href="admin.html">Admin</a>
-    </div>
-
-
+    </main>
+    
 </body>
 </html>

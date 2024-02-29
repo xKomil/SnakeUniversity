@@ -10,60 +10,68 @@
     <script src="script.js"></script>
 </head>
 <body>
+
+    <header>
+
+        <nav class="navigation">
+            <a href="index.html">
+                <img src="img/logo.png" class="logo" alt="University Logo">
+            </a>
+            <img src="img/menu.png" class="menu-icon" alt="Menu Icon">
+            <ul>
+                <li><a href="index.html#Kursy">Kursy</a></li>
+                <li><a href="index.html#Nauczyciele">Nauczyciele</a></li>
+                <li><a href="posty.html">Posty</a></li>
+                <li><a href="cennik.html">Cennik</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="logowanie.html">Logowanie</a></li>
+                <li><a href="info.html">O mnie</a></li>
+            </ul>
+        </nav>
+
+    </header>
     
-    <div class="navigation">
-        <a href="index.html">
-            <img src="img/logo.png" class="logo" alt="University Logo">
-        </a>
-        <img src="img/menu.png" class="menu-icon" alt="Menu Icon">
-        <ul>
-            <li><a href="index.html#Kursy">Kursy</a></li>
-            <li><a href="index.html#Nauczyciele">Nauczyciele</a></li>
-            <li><a href="posty.html">Posty</a></li>
-            <li><a href="cennik.html">Cennik</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="logowanie.html">Logowanie</a></li>
-            <li><a href="info.html">O mnie</a></li>
-        </ul>
-    </div>
+    <main>
 
-    <div class="registration-container">
-        <h2>Zarejestruj się</h2>
-        <form class="registration-form" action="logowanie.html">
-            <div class="form-group">
-                <label for="username">Nazwa użytkownika:</label>
-                <input id="username" type="text" required>
-            </div>
-            <div class="form-group">
-                <label for="firstName">Imię:</label>
-                <input id="firstName" type="text" required>
-            </div>
-            <div class="form-group">
-                <label for="lastName">Nazwisko:</label>
-                <input id="lastName" type="text" required>
-            </div>
-            <div class="form-group">
-                <label for="birthdate">Data urodzenia:</label>
-                <input id="birthdate" type="date" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input id="email" type="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Hasło:</label>
-                <input id="password" type="password" required>
-            </div>
-            <div class="form-group">
-                <label for="confirmPassword">Powtórz hasło:</label>
-                <input id="confirmPassword" type="password" required>
-            </div>
-            <div class="form-group">
-                <button type="submit">Zarejestruj się</button>
-            </div>
-        </form>
-        <p class="login-link">Masz już konto? <a href="logowanie.html">Zaloguj się</a></p>
-    </div>
+        <section class="registration-container">
+            <h2>Zarejestruj się</h2>
+            <form class="registration-form" action="logowanie.html">
+                <div class="form-group">
+                    <label for="username">Nazwa użytkownika:</label>
+                    <input id="username" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="firstName">Imię:</label>
+                    <input id="firstName" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Nazwisko:</label>
+                    <input id="lastName" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="birthdate">Data urodzenia:</label>
+                    <input id="birthdate" type="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Hasło:</label>
+                    <input id="password" type="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Powtórz hasło:</label>
+                    <input id="confirmPassword" type="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Zarejestruj się</button>
+                </div>
+            </form>
+            <p class="login-link">Masz już konto? <a href="logowanie.html">Zaloguj się</a></p>
+        </section>
 
+    </main>
+    
 </body>
 </html>
